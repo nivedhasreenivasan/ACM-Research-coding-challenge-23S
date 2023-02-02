@@ -12,7 +12,7 @@ The code written aims to predict whether a star in the data set belongs to a spe
 
 ## Prediction
 
-To predict the star type, I first set out to split the data set into separate lists based on spectral class. Then, I placed each list separately into a method called spectral alongside several variables named after the star types meant for keeping track of how many of each star type were found. In this method, I found the maximum and minimum values for both temperature and magnitude for all the star types and used the data to set the expected range for each star type. I then filtered through the list of values for the spectral class and found the star type that each star belongs to and printed all the attributes of the star. Lastly, I incremented the counter variable cooresponding to the star type found. 
+To predict the star type, I first split the data set into separate lists based on spectral class. Then, I placed each list separately into a method called spectral with several variables named after the star types. These variables are meant for keeping track of how many of each star type is found. In this method, I found the maximum and minimum values for both temperature and magnitude for all the star types and used this data to set the expected range for each star type. I then filtered through the list of values for the spectral class and found the star type that each star belongs to and printed all the attributes of that star. Lastly, I incremented the counter variable corresponding to the star type found.
 
 ## Accuracy
 
